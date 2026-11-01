@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yiff-by.github.io/maiju-tel-site/sitemap.xml
