@@ -1,0 +1,12 @@
+.team-profiles { padding-block: clamp(48px, 7vw, 100px); scroll-margin-top: 80px; }
+.team-profiles h2, .team-profile h3 { font-family: "Z Labs RoundPix 16px M CN", sans-serif; font-weight: 400; }
+.team-profiles h2 { font-size: clamp(30px, 4vw, 48px); margin: 0 0 32px; }
+.team-profile { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: center; gap: clamp(32px, 6vw, 88px); padding-block: clamp(28px, 4vw, 56px); border-top: 1px solid #dedede; }
+.team-profile img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+.team-profile h3 { font-size: clamp(25px, 3vw, 36px); margin: 0 0 16px; }
+.team-profile p { font-size: 16px; line-height: 1.85; color: #484b50; margin: 0; }
+.team-profile p + p { margin-top: .7em; }
+@media (max-width: 700px) {
+  .team-profile { grid-template-columns: 1fr; gap: 20px; }
+  .team-profile p { font-size: 15px; }
+}
